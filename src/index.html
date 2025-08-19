@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Todo App</h1>
+    <div class="container">
+      <form>
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="Enter Your Tasks..."
+          autocomplete="off"
+        />
+        <button id="add-btn">Add</button>
+      </form>
+      <ul id="todo-lists">
+        <li class="todo">
+          <input type="checkbox" id="todo-1" />
+          <label id="custom-checkbox" for="todo-1">
+            <img 
+            style="display: none;"
+            src="./assets/check_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          </label>
+          <label for="todo-1" class="todo-text">Todo app project</label>
+          <button class="delete-button">
+            <img src="./assets/delete_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          </button>
+        </li>
+
+        <li class="todo">
+          <input type="checkbox" id="todo-2" />
+          <label id="custom-checkbox" for="todo-2">
+            <img 
+            style="display: none;"
+            src="./assets/check_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          </label>
+          <label for="todo-2" class="todo-text">Todo app project</label>
+          <button class="delete-button">
+            <img src="./assets/delete_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          </button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
