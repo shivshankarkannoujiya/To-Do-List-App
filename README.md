@@ -1,6 +1,6 @@
 # 📋 Task Manager (To-Do List App)
 
-**Cohort:** Web Dev Cohort\
+**Cohort:** Web Dev Cohort
 
 ------------------------------------------------------------------------
 
@@ -17,8 +17,8 @@ after refreshing or reopening the page.
 ## 🎯 Objective
 
 -   Build a simple **to-do list application** using **HTML, CSS, and
-    JavaScript**.\
--   Provide an intuitive interface for managing tasks.\
+    JavaScript**.
+-   Provide an intuitive interface for managing tasks.
 -   Ensure that tasks are **saved locally** so users don't lose
     progress.
 
@@ -55,7 +55,7 @@ after refreshing or reopening the page.
 
 ## 🚀 Future Enhancements
 
--   Add **due dates & reminders** for tasks.\
--   Implement **categories / tags** for better organization.\
--   Support **drag-and-drop reordering** of tasks.\
+-   Add **due dates & reminders** for tasks.
+-   Implement **categories / tags** for better organization.
+-   Support **drag-and-drop reordering** of tasks.
 -   Add **dark mode** toggle.
